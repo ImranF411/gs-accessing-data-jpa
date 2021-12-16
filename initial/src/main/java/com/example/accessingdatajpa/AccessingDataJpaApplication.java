@@ -36,7 +36,7 @@ public class AccessingDataJpaApplication {
 			
 			//fetch an individual customer by ID
 			Customer customer = repository.findById(1L);
-			log.info("Customer found with findById(1l):");
+			log.info("Customer found with findById(1L):");
 			log.info("---------------------------------");
 			log.info(customer.toString());
 			log.info("");
